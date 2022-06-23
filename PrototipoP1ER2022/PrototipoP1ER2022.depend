@@ -4,18 +4,18 @@
 	"usuariosCine.h"
 	"datosUsuariosCine.h"
 
-1656002949 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\usuarioscine.h
+1656003659 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\usuarioscine.h
 
-1656003070 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\datosusuarioscine.h
+1656003659 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\datosusuarioscine.h
 	<iostream>
 
-1656003070 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\datosusuarioscine.cpp
+1656003659 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\datosusuarioscine.cpp
 	"datosUsuariosCine.h"
 	"usuariosCine.h"
 	<cstring>
 	<iostream>
 
-1656003070 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\usuarioscine.cpp
+1656003659 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\usuarioscine.cpp
 	"usuariosCine.h"
 	"datosUsuariosCine.h"
 	<iostream>
