@@ -1,10 +1,10 @@
-#include "datosClientesCine .h"
+#include "datosClientesCine.h"
 #include "clientesCine.h"
 #include <cstring>
 #include <iostream>
 
 using std::string;
-datosClientesCine::datosClientesCine(int valorCodigo, string valorNombre, double valorCantidad)
+ datosClientesCine::datosClientesCine(int valorCodigo, string valorNombre, double valorCantidad)
 {
      establecerCodigo( valorCodigo );
     establecerNombre( valorNombre );

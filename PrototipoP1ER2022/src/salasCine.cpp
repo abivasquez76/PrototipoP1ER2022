@@ -1,5 +1,7 @@
 #include "salasCine.h"
 #include "datosSalasCine.h"
+
+
 #include <iostream>
 using std::cout;
 using std::cerr;
@@ -24,13 +26,13 @@ using std::setprecision;
 int opcionDepa();
 void crearArchivoCreditoDepa();
 void imprimirRegistroDepa( fstream& );
-void mostrarLineaDepa( ostream&, const datosSalasCine & );
+void mostrarLineaDepa( ostream&, const datosSalas & );
 void nuevoRegistroDepa( fstream& );
 int obtenernCodigoDepa( const char * const );
 void modificarRegistroDepa( fstream& );
 void eliminarRegistroDepa( fstream& );
 void consultarRegistroDepa( fstream& );
-void mostrarLineaPantallaDepa( const datosSalasCine &);
+void mostrarLineaPantallaDepa( const datosSalas &);
 using namespace std;
 
 salasCine::salasCine()
@@ -107,9 +109,8 @@ void imprimirRegistroDepa( fstream &leerDeArchivo )
     archivoImprimirSalida << left << setw( 10 ) << "Codigo" << setw( 16 )<< "Estatus" << right << setw( 10 ) << "Asientos" << endl;
     leerDeArchivo.seekg( 0 );
 
-    datosSalasCine departamentos;
-    leerDeArchivo.read( reinterpret_cast< char * >( &departamentos ), sizeof( datosSalasCine ) );
-
+    datosSalas departamentos;
+    leerDeArchivo.read( reinterpret_cast< char * >( &departamentos ), sizeof( datosSalas);
     while ( !leerDeArchivo.eof() ) {
         if ( departamentos.obtenerCodigo() != 0 )
         mostrarLineaDepa( archivoImprimirSalida, departamentos );
@@ -211,7 +212,7 @@ void modificarRegistroDepa( fstream &actualizarArchivo )
         actualizarArchivo.seekg(( codigo - 1 ) * sizeof( datosSalasCine ));
 
         datosSalasCine departamentos;
-        actualizarArchivo.read( reinterpret_cast< char * >( &departamentos ), sizeof( datosSalasCine ) );
+        actualizarArchivo.read( reinterpret_cast< char * >( &salas ), sizeof( datosSalasCine ) );
 
         if (departamentos.obtenerCodigo() != 0 ) {
                 mostrarLineaDepa( cout, departamentos );
@@ -233,7 +234,7 @@ void modificarRegistroDepa( fstream &actualizarArchivo )
 void eliminarRegistroDepa( fstream &eliminarDeArchivo )
 {
     int codigo = obtenernCodigoDepa( "\nEscriba el codigo de la sala de cine a Eliminar" );
-    eliminarDeArchivo.seekg( ( codigo - 1 ) * sizeof( datosSalasCine ) );
+    eliminarDeArchivo.seekg( ( codigo - 1 ) * sizeof( datosClientesCine ) );
     datosSalasCine departamentos;
     eliminarDeArchivo.read( reinterpret_cast< char * >( &departamentos ), sizeof( datosSalasCine ) );
 
@@ -256,7 +257,7 @@ void consultarRegistroDepa( fstream &leerDeArchivo )
     cout << left << setw( 10 ) << "\nCodigo" << setw( 16 ) << "Estatus" << right << setw( 10 ) << " Asientos" << endl;
     leerDeArchivo.seekg( 0 );
     datosSalasCine departamentos;
-    leerDeArchivo.read( reinterpret_cast< char * >( &departamentos ), sizeof( datosSalasCine ) );
+    leerDeArchivo.read( reinterpret_cast< char * >( &salasCine ), sizeof( datosSalasCine ) );
     while ( !leerDeArchivo.eof() ) {
         if ( departamentos.obtenerCodigo() != 0 )
             mostrarLineaPantallaDepa(departamentos);
