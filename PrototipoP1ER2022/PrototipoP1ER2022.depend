@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1656003070 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\main.cpp
+	<iostream>
+	"usuariosCine.h"
+	"datosUsuariosCine.h"
+
+1656002949 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\usuarioscine.h
+
+1656003070 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\datosusuarioscine.h
+	<iostream>
+
+1656003070 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\datosusuarioscine.cpp
+	"datosUsuariosCine.h"
+	"usuariosCine.h"
+	<cstring>
+	<iostream>
+
+1656003070 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\usuarioscine.cpp
+	"usuariosCine.h"
+	"datosUsuariosCine.h"
+	<iostream>
+	<cstdlib>
+	<conio.h>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+
