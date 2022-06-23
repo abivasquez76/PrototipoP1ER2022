@@ -1,32 +1,33 @@
-#ifndef DATOSSALAS_H
-#define DATOSSALAS_H
-
+#ifndef DATOSSALASCINE_H
+#define DATOSSALASCINE_H
 #include <iostream>
 
 using std::string;
 
-class datosSalas
+class datosSalasCine
 {
     public:
-        virtual ~datosSalas();
+        virtual ~datosSalasCine();
 
-        datosSalas( int = 0, string = "", string = "");
+        datosSalasCine( int = 0, string = "", string = "" );
 
-        void establecerCodigoP( int );
-        int obtenerCodigoP() const;
+        void establecerCodigo( int );
+        int obtenerCodigo() const;
 
-        void establecerEstatus( string );
-        string obtenerEstatus() const;
+        void establecerApellido( string );
+        string obtenerApellido() const;
 
-        void establecerNombrePuestos( string );
+        void establecerNombre( string );
         string obtenerNombre() const;
 
     protected:
 
     private:
-        int codigoP;
-        char Estatus[ 15 ];
-        char nombreP[ 10 ];
+        int codigo;
+        char apellido[ 15 ];
+        char nombre[ 10 ];
+
 };
 
-#endif // DATOSPUESTOS_H
+#endif
+

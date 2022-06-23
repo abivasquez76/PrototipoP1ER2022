@@ -1,6 +1,16 @@
 #include <iostream>
 #include "usuariosCine.h"
 #include "datosUsuariosCine.h"
+#include "peliculas.h"
+#include "datosPeliculas.h"
+#include "salas.h"
+#include "datosSalas.h"
+#include "salasCine.h"
+#include "datosSalasCine.h"
+#include "asientosCine.h"
+#include "datosAsientosCine.h"
+#include "clientesCine.h"
+#include "datosClientesCine.h"
 
 using namespace std;
 int escribirOpcion();

@@ -6,7 +6,7 @@
 
 using std::string;
 
-datosAsientosCine::datosAsientosCine(int valorCodigo, string valorNombre, int valorCelular)
+ datosAsientosCine::datosAsientosCine(int valorCodigo, string valorNombre, int valorCelular)
 {
     establecerCodigo( valorCodigo );
     establecerNombre( valorNombre );

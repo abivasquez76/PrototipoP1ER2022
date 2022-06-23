@@ -75,7 +75,7 @@ asientosCine::asientosCine()
 int opcionEmpre(){
     cout<<"\n\t\t\t---------------------------------"<<endl;
     cout<<"\n\t\t\t\t-----------------"<<endl;
-	cout<<"\t\t\t\t |   ASIETOS  |"<<endl;
+	cout<<"\t\t\t\t |   ASIENTOS  |"<<endl;
 	cout<<"\t\t\t\t-----------------"<<endl;
 
     cout<< "\n\t\t\t 1. Guardar archivo de texto para Imprimirlo" << endl

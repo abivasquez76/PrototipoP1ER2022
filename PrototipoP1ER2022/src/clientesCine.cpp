@@ -1,6 +1,6 @@
 #include "clientesCine.h"
-#include "datosClientesCine .h"
-
+#include "datosAsientosCine.h"
+#include "datosClientesCine.h"
 #include <iostream>
 using std::cout;
 using std::cerr;
@@ -80,7 +80,7 @@ int opcionImp(){
     //system("cls");
     cout<<"\n\t\t\t---------------------------------"<<endl;
     cout<<"\t\t\t\t------------------"<<endl;
-	cout<<"\t\t\t\t|  IMPUESTOS  |"<<endl;
+	cout<<"\t\t\t\t|  CLIENTES  |"<<endl;
 	cout<<"\t\t\t\t------------------"<<endl;
 
 

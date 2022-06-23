@@ -1,50 +1,33 @@
-#include "datosAsientosCine.h"
-#include "asientosCine.h"
+#ifndef DATOSASIENTOSCINE_H
+#define DATOSASIENTOSCINE_H
 
 
-#include <cstring>
 #include <iostream>
+using std::string;
 
-using std::string
+class datosAsientosCine
+{
+    public:
+        virtual ~datosAsientosCine();
 
-void datosAsientosCine::datosAsientosCine(int valorCodigo, string valorNombre, int valorCelular)
-{
-    establecerCodigo( valorCodigo );
-    establecerNombre( valorNombre );
-    establecerCelular( valorCelular );
-}
-int datosAsientosCine::obtenerCodigo() const
-{
-   return codigo;
-}
-void datosAsientosCine::establecerCodigo( int valorCodigo )
-{
-   codigo = valorCodigo;
-}
-string datosAsientosCine::obtenerNombre() const
-{
-   return nombre;
-}
-void datosAsientosCine::establecerNombre( string nombreEmpre )
-{
-    const char *valorNombre = nombreEmpre.data();
-    int longitud = strlen( valorNombre );
-    longitud = ( longitud < 20 ? longitud : 19 );
-    strncpy( nombre, valorNombre, longitud );
+        datosAsientosCine( int = 0, string = "", int = 0 );
 
-    nombreEmpre[ longitud ] = '\0';
+        void establecerCodigo( int );
+        int obtenerCodigo() const;
 
-}
-int datosAsientosCine::obtenerCelular() const
-{
-   return celular;
-}
-void datosAsientosCine::establecerCelular( int valorCelular )
-{
-   celular = valorCelular;
-}
-datosAsientosCine::~datosAsientosCine()
-{
-    //dtor
-}
+        void establecerNombre( string );
+        string obtenerNombre() const;
+
+        void establecerCelular( int );
+        int obtenerCelular() const;
+
+    protected:
+
+    private:
+        int codigo;
+        char nombre[ 20 ];
+        int celular;
+};
+
+#endif
 
