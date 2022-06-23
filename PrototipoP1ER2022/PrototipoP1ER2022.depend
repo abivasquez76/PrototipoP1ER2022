@@ -1,21 +1,21 @@
 # depslib dependency file v1.0
-1656003070 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\main.cpp
+1656006313 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\main.cpp
 	<iostream>
 	"usuariosCine.h"
 	"datosUsuariosCine.h"
 
-1656003659 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\usuarioscine.h
+1656006313 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\usuarioscine.h
 
-1656003659 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\datosusuarioscine.h
+1656006313 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\datosusuarioscine.h
 	<iostream>
 
-1656003659 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\datosusuarioscine.cpp
+1656006313 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\datosusuarioscine.cpp
 	"datosUsuariosCine.h"
 	"usuariosCine.h"
 	<cstring>
 	<iostream>
 
-1656003659 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\usuarioscine.cpp
+1656006313 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\usuarioscine.cpp
 	"usuariosCine.h"
 	"datosUsuariosCine.h"
 	<iostream>
@@ -24,4 +24,68 @@
 	<fstream>
 	<iomanip>
 	<cstdlib>
+
+1656008132 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\clientescine.cpp
+	"clientesCine.h"
+	"datosClientesCine .h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+
+1656006524 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\clientescine.h
+
+1656006677 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\datosclientescine .h
+	<iostream>
+
+1656007834 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\datosclientescine .cpp
+	"datosClientesCine .h"
+	"clientesCine.h"
+	<cstring>
+	<iostream>
+
+1656006313 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\datospeliculas.cpp
+	"datosPeliculas.h"
+	"peliculas.h"
+	<cstring>
+	<iostream>
+
+1656006313 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\datospeliculas.h
+	<iostream>
+
+1656006313 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\peliculas.h
+	<iostream>
+
+1656006313 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\datossalas.cpp
+	"datosSalas.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+	<cstring>
+
+1656006313 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\datossalas.h
+	<iostream>
+
+1656006313 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\datossalascine.cpp
+	<iostream>
+
+1656006313 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\peliculas.cpp
+	"peliculas.h"
+	"datosPeliculas.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+
+1656006313 source:c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\src\salas.cpp
+	"salas.h"
+	"datosSalas.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+	<cstring>
+
+1656006313 c:\users\abiva\proyectos\examenrecuperación\prototipop1er2022\prototipop1er2022\include\salas.h
 
