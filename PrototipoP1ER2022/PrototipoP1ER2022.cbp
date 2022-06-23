@@ -34,10 +34,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/datosPeliculas.h" />
 		<Unit filename="include/datosUsuariosCine.h" />
+		<Unit filename="include/peliculas.h" />
 		<Unit filename="include/usuariosCine.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/datosPeliculas.cpp" />
 		<Unit filename="src/datosUsuariosCine.cpp" />
+		<Unit filename="src/peliculas.cpp" />
 		<Unit filename="src/usuariosCine.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
