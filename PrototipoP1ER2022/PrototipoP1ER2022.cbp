@@ -35,7 +35,9 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/asientosCine.h" />
+		<Unit filename="include/clientesCine.h" />
 		<Unit filename="include/datosAsientosCine.h" />
+		<Unit filename="include/datosClientesCine .h" />
 		<Unit filename="include/datosPeliculas.h" />
 		<Unit filename="include/datosSalas.h" />
 		<Unit filename="include/datosSalasCine.h" />
@@ -46,7 +48,9 @@
 		<Unit filename="include/usuariosCine.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/asientosCine.cpp" />
+		<Unit filename="src/clientesCine.cpp" />
 		<Unit filename="src/datosAsientosCine.cpp" />
+		<Unit filename="src/datosClientesCine .cpp" />
 		<Unit filename="src/datosPeliculas.cpp" />
 		<Unit filename="src/datosSalas.cpp" />
 		<Unit filename="src/datosSalasCine.cpp" />

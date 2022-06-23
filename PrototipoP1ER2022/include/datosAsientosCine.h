@@ -1,12 +1,13 @@
 #include "datosAsientosCine.h"
 #include "asientosCine.h"
 
+
 #include <cstring>
 #include <iostream>
 
-using std::string;
+using std::string
 
-datosAsientosCine::datosAsientosCine(int valorCodigo, string valorNombre, int valorCelular)
+void datosAsientosCine::datosAsientosCine(int valorCodigo, string valorNombre, int valorCelular)
 {
     establecerCodigo( valorCodigo );
     establecerNombre( valorNombre );
